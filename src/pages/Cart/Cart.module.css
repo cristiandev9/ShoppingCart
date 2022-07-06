@@ -1,0 +1,72 @@
+h1{
+    font-weight: 600;
+}
+
+@media (max-width: 754px) {
+    .cart{
+        width: 80%;
+    }
+ }
+
+
+ @media (min-width: 755px) {
+    .cart{
+        width: 35rem;
+    }
+ }
+
+.cart{
+    background:#fff;
+    margin:1.3rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.line{
+    height:1px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.fontBold{
+    font-weight: 800;
+}
+
+.subtotal{
+    display:flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin:1.5rem;
+}
+
+.btnFinalize{
+    width: 100%;
+    border-radius: 8px;
+    height: 4rem;
+    font-size:1.3rem;
+    border:1px solid #0b77eb;
+    background: #2186f1;
+    color:#fff;
+    font-weight: 700;
+    margin-top:1.6rem;
+    cursor:pointer;
+}
+
+.products{
+    margin: 0 1.5rem;
+}
+
+.divButtonFinalize{
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.flexCenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freeShipping{
+    margin-bottom: 2.3rem;
+}

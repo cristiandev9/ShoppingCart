@@ -1,0 +1,41 @@
+.boxProduct{
+    display:flex;
+    margin: 1.7rem 0;
+}
+
+.divImgProduct{
+    border:1px solid #ddd;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProduct{
+    max-width: 6rem;
+    margin: 0 .7rem;
+}
+
+.infoProducts{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left:1.5rem;
+    margin-top:-.5rem;
+}
+
+.infoProducts > h1{
+    font-size: .87em;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price{
+    color:rgb(170, 170, 170);
+    font-size:14px;
+}
+
+.priceSelling{
+    font-weight: 700;
+}
